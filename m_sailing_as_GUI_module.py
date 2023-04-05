@@ -169,7 +169,7 @@ class M_Sailing:
 			distance = self.departure()
 			heading = self.course()
 
-		answer = f"{distance} NM at {heading} degrees true"
+		answer = f"{distance} NM at {heading}° true"
 		return answer
 
 
